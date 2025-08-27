@@ -2,16 +2,18 @@
   "name": "astro-sanity-starter",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "studio": "sanity dev --cwd studio",
+    "studio:build": "sanity build --cwd studio",
     "create-project": "node ./sanity-export/create-project.js",
     "import": "node ./sanity-export/import.js",
-    "export": "node ./sanity-export/export.js",
-    "studio": "sanity dev --cwd studio"
+    "export": "node ./sanity-export/export.js"
   },
   "dependencies": {
     "@sanity/astro": "^3.2.10",
@@ -40,6 +42,8 @@
     "@tailwindcss/oxide": "4.1.12",
     "@tailwindcss/oxide-linux-x64-gnu": "4.1.12",
     "@tailwindcss/oxide-wasm32-wasi": "4.1.12"
-    "@tailwindcss/oxide-unknown": "4.1.12"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
