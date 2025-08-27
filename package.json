@@ -40,5 +40,6 @@
     "@tailwindcss/oxide": "4.1.12",
     "@tailwindcss/oxide-linux-x64-gnu": "4.1.12",
     "@tailwindcss/oxide-wasm32-wasi": "4.1.12"
+    "@tailwindcss/oxide-unknown": "4.1.12"
   }
 }
