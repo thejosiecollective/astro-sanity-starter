@@ -35,7 +35,8 @@
     "rollup": "4.24.0"
   },
   "overrides": {
-    "@rollup/rollup-linux-x64-gnu": "4.24.0"
+    "@rollup/rollup-linux-x64-gnu": "4.24.0",
+    "lightningcss": "1.26.0",
+    "lightningcss-linux-x64-gnu": "1.26.0"
   }
 }
-
